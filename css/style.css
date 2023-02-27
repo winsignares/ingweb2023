@@ -2,3 +2,7 @@ body{
     background-color: blue;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+a{
+    color: rgb(255, 255, 255);
+}
