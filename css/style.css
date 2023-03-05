@@ -1,8 +1,14 @@
-body{
-    background-image: url(../img/diomedesdiaz.jpg);
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    text-decoration: none;
 }
 
-a{
+body {
+    background-image: url(../img/diomedesdiaz.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+a {
     color: rgb(255, 255, 255);
 }
