@@ -1,0 +1,117 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --degradado: #dfe9f3;
+    --gris: #757575;
+    --fuenteP: 3.8rem;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'krub' sans-serif;
+}
+
+.titulo {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sombra_uno {
+    /*Sombra generada y sacada de https://www.cssmatic.com/box-shadow*/
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.6);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.6);
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.6);
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.sombra_dos {
+    border-radius: 94px 94px 94px 94px;
+    -moz-border-radius: 94px 94px 94px 94px;
+    -webkit-border-radius: 94px 94px 94px 94px;
+    border: 0px solid #000000;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padding {
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.bag_nav {
+    background-color: var(--secundario);
+}
+
+.navegacion_principal {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .navegacion_principal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion_principal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: var(--blanco);
+}
+
+.navegacion_principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.izq {
+    float: left;
+    width: 57%;
+    margin-left: 2rem;
+}
+
+.der {
+    margin: 1rem;
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+fieldset {
+    font-size: 1.8rem;
+}
