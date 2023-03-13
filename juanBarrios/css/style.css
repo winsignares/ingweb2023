@@ -25,6 +25,20 @@ body {
     font-family: 'krub' sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+fieldset {
+    font-size: 1.8rem;
+}
+
+legend {
+    color: var(--oscuro);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 .titulo {
     font-size: 2rem;
     text-align: center;
@@ -95,10 +109,6 @@ body {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-}
-
 .izq {
     float: left;
     width: 57%;
@@ -112,9 +122,6 @@ a {
     float: right;
 }
 
-fieldset {
-    font-size: 1.8rem;
-}
 
 .user_img {
     width: 20rem;
