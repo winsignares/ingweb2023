@@ -115,3 +115,10 @@ a {
 fieldset {
     font-size: 1.8rem;
 }
+
+.user_img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: var(--gris);
+}
